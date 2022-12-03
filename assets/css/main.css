@@ -70,3 +70,9 @@ footer {
 #math-item-container {
     display: flex;
 }
+
+@media screen and (max-width: 1000px) {
+    #math-item-container {
+        flex-direction: column;
+    }
+}
