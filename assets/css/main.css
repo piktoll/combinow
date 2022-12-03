@@ -63,10 +63,6 @@ footer {
     color: var(--green);
 }
 
-.math-item {
-    width: 50%;
-}
-
 #math-item-container {
     display: flex;
 }
