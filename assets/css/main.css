@@ -1,0 +1,72 @@
+:root {
+    --primary: #b04;
+    --primary-light: #f08;
+    --secondary: #444;
+    --white: #fff;
+    --green: #0b4;
+
+    --btn-radius: 0.5rem;
+}
+
+.number {
+    width: 10rem;
+}
+
+* {
+    font-family: sans-serif;
+    color: var(--secondary);
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    color: var(--primary);
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+.primary-btn {
+    background: var(--primary);
+    color: var(--white);
+    padding: 1rem 3rem;
+    border-radius: var(--btn-radius);
+    border-width: 0rem;
+    font-weight: bold;
+    transition: 0.5s;
+    margin: 0.5rem;
+}
+
+.primary-btn:hover {
+    background: var(--primary-light);
+}
+
+header,
+.math-item,
+footer {
+    padding: 1rem;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+footer {
+    border-top: 0.1rem solid var(--primary);
+}
+
+.math-item-solution {
+    font-weight: bold;
+    color: var(--green);
+}
+
+.math-item {
+    width: 50%;
+}
+
+#math-item-container {
+    display: flex;
+}
